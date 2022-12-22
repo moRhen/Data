@@ -4,8 +4,8 @@ import lombok.Data;
 
 @Data
 public class Post {
+  long id;
   int userId;
-  int id;
   String title;
   String body;
 }
