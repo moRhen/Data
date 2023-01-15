@@ -3,7 +3,7 @@ package org.example;
 import lombok.Data;
 
 @Data
-public class Post {
+public class PostDto {
   long id;
   int userId;
   String title;
